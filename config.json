@@ -1,0 +1,13 @@
+{
+  "project_title": "Fleet Fuel Monitor",
+  "goal": "Analyze fuel consumption and spot inefficiencies.",
+  "entity_name": "vehicle",
+  "amount_label": "liters",
+  "score_label": "efficiency_score",
+  "categories": [
+    "truck",
+    "van",
+    "car",
+    "equipment"
+  ]
+}

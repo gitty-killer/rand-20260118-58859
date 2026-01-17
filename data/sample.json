@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "vehicle-01",
+      "name": "vehicle_01",
+      "category": "truck",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-02",
+      "name": "vehicle_02",
+      "category": "van",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-03",
+      "name": "vehicle_03",
+      "category": "car",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-04",
+      "name": "vehicle_04",
+      "category": "equipment",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "vehicle-05",
+      "name": "vehicle_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-06",
+      "name": "vehicle_06",
+      "category": "van",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-07",
+      "name": "vehicle_07",
+      "category": "car",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-08",
+      "name": "vehicle_08",
+      "category": "equipment",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "vehicle-09",
+      "name": "vehicle_09",
+      "category": "truck",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-10",
+      "name": "vehicle_10",
+      "category": "van",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-11",
+      "name": "vehicle_11",
+      "category": "car",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "vehicle-12",
+      "name": "vehicle_12",
+      "category": "equipment",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "vehicle-12",
+    "issue_count": 1
+  }
+}
